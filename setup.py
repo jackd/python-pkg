@@ -13,7 +13,7 @@ with open(os.path.join(os.path.dirname(__file__), "requirements.txt")) as fp:
 setup(
     name="python_pkg",  # TODO
     description="python package template",  # TODO
-    url="https://github.com/jackd",
+    url="https://github.com/jackd/python-pkg",  # TODO
     author="Dominic Jack",
     author_email="thedomjack@gmail.com",
     license="Apache 2.0",
@@ -21,5 +21,5 @@ setup(
     install_requires=install_requires,
     zip_safe=True,
     python_requires=">=3.6",
-    version=".".join([_MAJOR_VERSION, _MINOR_VERSION, _PATCH_VERSION,]),
+    version=".".join([_MAJOR_VERSION, _MINOR_VERSION, _PATCH_VERSION]),
 )
